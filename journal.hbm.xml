@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="Journal" table="Journal_Entry">
+      <meta attribute="class-description">
+         Journal Entries
+      </meta>
+      <id name="id" type="int" column="id">
+         <generator class="native"/>
+      </id>
+      <property name="date" column="date_time" type="date"/>
+      <property name="subject" column="title_subject" type="string"/>
+      <property name="entry" column="entry" type="string"/>
+      <property name="good_day" column="day_type" type="string"/>
+   </class>
+</hibernate-mapping>
