@@ -66,12 +66,12 @@ public class Collections {
         map.put("Football", "System.out.println(\"Hello world!\");");
         map.put("MotoCross", "print(\"Hello world!\")");
 
-        Map<String, String> webDevForMap = new HashMap<>();
-        webDevForMap.put("Baseball", "echo 'Hello world!';");
-        webDevForMap.put("Basketball", "<div>Hello world!</div>");
-        webDevForMap.put("Hockey", "window.alert('Hello world!');");
-        webDevForMap.put("League", "puts \"Hello world!\"");
-        map.putAll(webDevForMap);
+        Map<String, String> sports = new HashMap<>();
+        sportsForMap.put("Baseball", "echo 'Hello world!';");
+        sportsForMap.put("Basketball", "<div>Hello world!</div>");
+        sportsForMap.put("Hockey", "window.alert('Hello world!');");
+        sportsForMap.put("League", "puts \"Hello world!\"");
+        map.putAll(sportsForMap);
 
         System.out.println("\n\nMAP:\nBefore removal: ");
         for (Iterator it = map.entrySet().iterator(); it.hasNext(); ) {
