@@ -59,7 +59,7 @@ public class ManageJournal {
 		return ID;
 	}
 
-	/* Method to READ employees */
+	/* Method to READ entries */
 	public void listEntries() {
 		Session session = factory.openSession();
 		Transaction tx = null;
@@ -82,7 +82,7 @@ public class ManageJournal {
 		}
 	}
 
-	/* Method to UPDATE salary for an employee */
+	/* Method to UPDATE day_type for an employee */
 	public void updateEmployee(Integer ID, int dayType) {
 		Session session = factory.openSession();
 		Transaction tx = null;
