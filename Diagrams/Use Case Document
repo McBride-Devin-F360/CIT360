@@ -1,0 +1,28 @@
+Name:	Tip Calculator 
+Summary:	Calculates the amount of a tip to leave at a restaurant when you have a certain number of people in your group.
+Preconditions:	--Select type size of group—
+1.  Two People
+2.  Four People
+3.  Six People
+---------------------------------
+How big is your group?
+Triggers:	1.	User Inputs group size
+2.	Amount of Bill
+3.	Tip Amount – divided among number of people 
+Main Success:	Cost of bill plus 
+Alt Success:	N/A
+Post Conditions:	--Select type size of group—
+1.  Two People
+2.  Four People
+3.  Six People
+---------------------------------
+How big is your group? Two People
+How Much was your Bill? 52.65
+What is the tip Amount? 15%
+---------Calculated----------
+The cost of the meal is $60.55. If I divided by Two People, it is $30.27 each
+
+Business Notes:	N/a
+Notes:	Needs to implement Java Collections.
+Author:	Devin McBride
+Date	November 9, 2016
